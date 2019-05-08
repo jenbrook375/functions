@@ -17,11 +17,11 @@ function formatName(firstName, lastName){
 }
 
 // arguments
-var userFirstName = 'Jennifer';
-var userLastName = 'Brookshire';
+var firstName = 'Jennifer';
+var lastName = 'Brookshire';
 
 // call the function (pass in arguments)
-formatName(userFirstName, userLastName);
+formatName(firstName, lastName);
 
 // function expression:
 var createUserObj = function (firstName, lastName) {

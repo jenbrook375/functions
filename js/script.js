@@ -15,3 +15,27 @@ var hero = {
 };
 console.log(hero);
 
+var confirmCont = confirm('Continue?');
+if (confirmCont == true) {
+    var monsterName = prompt('Enter monster name');
+    var monsterHp = prompt('Enter monster hp');
+} else {var myHero = prompt('Enter name')
+        var hp = prompt('Enter hp')
+    };
+
+var monster = {
+    Monster: monsterName,
+    Power: monsterHp
+};
+var monsters = []
+var monsterCount = 5;
+
+while ( monsters.length < monsterCount) {
+    var monster = {};
+   
+    monster.monsterName = prompt("Enter monster name: ");
+    monster.monsterHp = prompt('Enter monster hp: '); 
+    monsters.push(monster);
+}
+
+console.log(monsters);
